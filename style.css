@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-color: rgb(54, 54, 205);
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 35px 100px;
+    border-radius: 75px;
+    top: 310px;
+    box-shadow: 7.5px 13.5px 1px rgb(21, 34, 97);
+}
+
+.header a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+    position: relative;
+    font-style: italic;
+    transition: all ease-in-out 0.4s;
+    text-shadow: 16px 8px 1px black;
+}
+
+.header a:hover{
+    color: rgb(255, 0, 251);
+    font-weight: bold;
+    text-shadow: 0px 0px 1px black;
+    transform: scale(1.5);
+}
+
+.header a:nth-child(1):hover{
+    color: rgb(0, 200, 255);
+}
+.header a:nth-child(2):hover{
+    color: rgb(225, 255, 0);
+
+}
+.header a:nth-child(3):hover{
+    color: rgb(0, 255, 51);
+
+}
+.header a:nth-child(5):hover{
+    color: rgb(255, 0, 0);
+}
